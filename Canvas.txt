@@ -1,0 +1,23 @@
+class Canvas {
+
+private List points<Points>;
+
+
+
+Canvas (List points<Points>){
+
+this.points<Points>=points<Points>
+
+}
+long funkcija (List points<Points>){
+
+rez=0;
+for (int i=0;i<points.length();i++){
+
+rez+=points[i];
+
+
+}
+return rez;
+}
+}
