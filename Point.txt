@@ -1,0 +1,84 @@
+class Point{
+
+private String boja;
+
+
+Point ();
+
+Point (int ID,int x, int y){
+
+this.ID=ID;
+this.x=x;
+this.y=y;
+
+
+
+
+}
+
+void Setx(int x1){
+x=x1;
+}
+
+void Sety(int y1){
+y=y1;
+
+}
+
+void SetID(int id1){
+ID=id1;
+}
+
+int Getx(){
+return x;
+}
+int GetY(){
+return y;
+}
+int getID(){
+
+return ID;
+}
+
+void move ( char xDirection, char yDirection){
+
+char x,y;
+xmove=xDirection;
+ymove=yDirection;
+
+if (xmove==L)
+this.x-1;
+if(xmove==R)
+this.x+1;
+if(ymove==U)
+this.y+1;
+if(ymove==D)
+this.y-1;
+
+
+}
+
+void draw (){
+
+return cout<<Getx()<<Gety();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+}
